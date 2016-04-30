@@ -1,0 +1,120 @@
+/***********************************************************************************************************************
+DOCUMENT: style/format.css
+DEVELOPED BY: Ryan Stemkoski
+COMPANY: Zipline Interactive
+EMAIL: ryan@gozipline.com
+PHONE: 509-321-2849
+DATE: 2/26/2009
+DESCRIPTION: This document contains the structural formatting files for the accordion style menu.
+************************************************************************************************************************/
+/****************END RIGHT SIDEBAR*************/
+#wrappersb {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom:15px;
+	}
+
+.accordionButton  {
+	background:url(../Images/sbbg_gradient.png);
+	height:30px;
+	width:200px;
+	padding: 5px 1px 1px 1px;
+	overflow:hidden;
+	font-size:90%;
+	float: none;  /* Float works in all browsers but IE6 */
+	border-bottom: 1px solid #FFFFFF;
+	cursor: pointer;
+
+	}
+	
+
+	
+.accordionContent {	
+	float:left;
+	font-size:90%;
+	line-height:25px;
+	padding: 5px 5px 7px 17px;
+
+	}
+	
+		.accordionContent a{
+					color:#004164;
+			text-decoration:none;
+		}
+	
+	.accordionContent a:hover {
+	
+text-decoration:underline;
+	}
+	
+	.accordianContent a:visited {
+		color:#004164;
+	}
+	
+/***/
+#wrapper-articles {
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.accordionButton-articles {	
+	width: 250px;
+	float: left;
+	_float: none;  /* Float works in all browsers but IE6 */
+	background-color:#FFFFFF;
+	border-bottom: 1px solid #CCC;
+	cursor: pointer;
+
+	}
+	
+.accordionContent-articles {	
+	width: 247px;
+	float: left;
+	_float: none; /* Float works in all browsers but IE6 */
+		background-color:#FFFFFF;
+	color:#004164;
+	margin-left: 10px;
+
+
+	}
+	
+		.accordionContent-articles a{
+					color:#004164;
+			text-decoration:none;
+		}
+	
+	.accordionContent-articles a:hover {
+			background-color:#D6E2EE;
+	}
+	
+	.accordianContent-articles a:visited {
+		color:#004164;
+	}
+	
+
+/***********************************************************************************************************************
+ EXTRA STYLES ADDED FOR MOUSEOVER / ACTIVE EVENTS
+************************************************************************************************************************/
+
+.on {
+
+	}
+	
+.over {
+	text-decoration:underline;
+	}
+	
+/***/
+/***********************************************************************************************************************
+ EXTRA STYLES ADDED FOR MOUSEOVER / ACTIVE EVENTS
+************************************************************************************************************************/
+
+.on {
+
+	}
+	
+.over {
+	
+	}

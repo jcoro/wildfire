@@ -1,0 +1,215 @@
+/*!
+ * Lush Content Slider - LESS Skin Stylesheet
+ * ======================================================= */
+/* ================================
+ * Skin Dark
+ * ================================*/
+.lush-slider.dark {
+  border: none;
+  background: #202020;
+  -webkit-box-shadow: 0 1px 2px #202020;
+  -moz-box-shadow: 0 1px 2px #202020;
+  box-shadow: 0 1px 2px #202020;
+}
+.lush-slider.dark .lush-nav a {
+  background-image: url('../skin/lush-skin-dark.png');
+}
+/* ================================
+ * Skin Silver
+ * ================================*/
+.lush-slider.silver {
+  border: none;
+  background-color: #e4e4e2;
+  background-image: -webkit-gradient(linear, left center, right center, from(#cccbc7), to(#e4e4e2));
+  background-image: -webkit-linear-gradient(left, #cccbc7, #e4e4e2);
+  background-image: -moz-linear-gradient(left, #cccbc7, #e4e4e2);
+  background-image: -o-linear-gradient(left, #cccbc7, #e4e4e2);
+  background-image: linear-gradient(left, #cccbc7, #e4e4e2);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, StartColorStr='#cccbc7', EndColorStr='#e4e4e2');
+  -webkit-box-shadow: 0 1px 2px #202020;
+  -moz-box-shadow: 0 1px 2px #202020;
+  box-shadow: 0 1px 2px #202020;
+}
+.lush-slider.silver .lush-nav a {
+  background-image: url('../skin/lush-skin-silver.png');
+}
+/* ================================
+ * Skin Flat
+ * ================================*/
+.lush-slider.flat {
+  padding: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.lush-slider.flat .lush-nav {
+  width: 100%;
+  height: 50%;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  /* required to align middle */
+
+  line-height: 1px;
+}
+.lush-slider.flat .lush-nav a {
+  position: absolute;
+}
+.lush-slider.flat a.lush-page {
+  bottom: 0;
+  position: relative;
+  vertical-align: bottom;
+}
+.lush-slider.flat .lush-prev,
+.lush-slider.flat .lush-next {
+  left: 0;
+  top: 0;
+  margin-top: -20px;
+}
+.lush-slider.flat .lush-next {
+  left: auto;
+  right: 0;
+}
+.lush-slider.flat .lush-nav a {
+  background-image: url('../skin/lush-skin-flat.png');
+}
+/* ================================
+ * Classic position 
+ * ================================*/
+/* ================================
+ * Skin Mini Position
+ * ================================*/
+/* ================================
+ * Skin Mini White default
+ * ================================*/
+.lush-slider.mini-white {
+  padding: 15px;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background: #fff;
+}
+.lush-slider.mini-white .lush-nav {
+  bottom: 10px;
+}
+.lush-slider.mini-white .lush-nav a {
+  width: 20px;
+  height: 21px;
+}
+.lush-slider.mini-white .lush-page {
+  background-position: -20px 0;
+}
+.lush-slider.mini-white .lush-page:hover,
+.lush-slider.mini-white .lush-page.current {
+  background-position: -20px -21px;
+}
+.lush-slider.mini-white .lush-prev {
+  background-position: 0 0;
+}
+.lush-slider.mini-white .lush-prev:hover {
+  background-position: 0 -21px;
+}
+.lush-slider.mini-white .lush-next {
+  background-position: -40px 0;
+}
+.lush-slider.mini-white .lush-next:hover {
+  background-position: -40px -21px;
+}
+.lush-slider.mini-white .lush-nav a {
+  background-image: url('../skin/lush-mini-skin.png');
+}
+/* ================================
+ * Skin Mini Dark
+ * ================================*/
+.lush-slider.mini-dark {
+  border: none;
+  background: #202020;
+  -webkit-box-shadow: 0 1px 2px #202020;
+  -moz-box-shadow: 0 1px 2px #202020;
+  box-shadow: 0 1px 2px #202020;
+}
+.lush-slider.mini-dark .lush-nav {
+  bottom: 10px;
+}
+.lush-slider.mini-dark .lush-nav a {
+  width: 20px;
+  height: 21px;
+}
+.lush-slider.mini-dark .lush-page {
+  background-position: -20px 0;
+}
+.lush-slider.mini-dark .lush-page:hover,
+.lush-slider.mini-dark .lush-page.current {
+  background-position: -20px -21px;
+}
+.lush-slider.mini-dark .lush-prev {
+  background-position: 0 0;
+}
+.lush-slider.mini-dark .lush-prev:hover {
+  background-position: 0 -21px;
+}
+.lush-slider.mini-dark .lush-next {
+  background-position: -40px 0;
+}
+.lush-slider.mini-dark .lush-next:hover {
+  background-position: -40px -21px;
+}
+.lush-slider.mini-dark .lush-nav a {
+  background-image: url('../skin/lush-mini-skin-dark.png');
+}
+/* ================================
+ * Skin Mini Silver
+ * ================================*/
+.lush-slider.mini-silver {
+  border: none;
+  background-color: #e4e4e2;
+  background-image: -webkit-gradient(linear, left center, right center, from(#cccbc7), to(#e4e4e2));
+  background-image: -webkit-linear-gradient(left, #cccbc7, #e4e4e2);
+  background-image: -moz-linear-gradient(left, #cccbc7, #e4e4e2);
+  background-image: -o-linear-gradient(left, #cccbc7, #e4e4e2);
+  background-image: linear-gradient(left, #cccbc7, #e4e4e2);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, StartColorStr='#cccbc7', EndColorStr='#e4e4e2');
+  -webkit-box-shadow: 0 1px 2px #202020;
+  -moz-box-shadow: 0 1px 2px #202020;
+  box-shadow: 0 1px 2px #202020;
+}
+.lush-slider.mini-silver .lush-nav {
+  bottom: 10px;
+}
+.lush-slider.mini-silver .lush-nav a {
+  width: 20px;
+  height: 21px;
+}
+.lush-slider.mini-silver .lush-page {
+  background-position: -20px 0;
+}
+.lush-slider.mini-silver .lush-page:hover,
+.lush-slider.mini-silver .lush-page.current {
+  background-position: -20px -21px;
+}
+.lush-slider.mini-silver .lush-prev {
+  background-position: 0 0;
+}
+.lush-slider.mini-silver .lush-prev:hover {
+  background-position: 0 -21px;
+}
+.lush-slider.mini-silver .lush-next {
+  background-position: -40px 0;
+}
+.lush-slider.mini-silver .lush-next:hover {
+  background-position: -40px -21px;
+}
+.lush-slider.mini-silver .lush-nav a {
+  background-image: url('../skin/lush-mini-skin-silver.png');
+}
+/* ================================
+ * NO Skin
+ * ================================*/
+.lush-slider.no-skin {
+  background: transparent;
+  padding: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
