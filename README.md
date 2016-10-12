@@ -1,6 +1,6 @@
 # Wildfire
 
-This repository is a custom implementation of CartWeaver eCommerce software coupled with WordPress. It is not currently a live site and is presented here for **historical reference only**.
+This repository is a custom implementation of CartWeaver eCommerce software coupled with WordPress. It is not currently a live site and is presented here for **historical reference only**. Wordpress implementation is in the `\blog` directory, and CartWeaver is in the `\cw4` directory.
 
 CartWeaver and WordPress versions used are out of date, but if you have any questions I'd be happy to try and help. Please contact me at: john@coronite.net.
 
